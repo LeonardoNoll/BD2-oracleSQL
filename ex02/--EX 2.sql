@@ -103,4 +103,6 @@ ON c.id_curso = d.id_curso
 LEFT OUTER JOIN turma t
 ON d.id_disciplina = t.id_disciplina 
 AND t.semestre = '2018/1'
-GROUP BY c.nome_curso
+GROUP BY c.nome_curso;
+
+-- Select rows from a Table
